@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Basic body and typography styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header and navigation styling */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    border: 2px solid transparent; /* invisible border for consistent spacing */
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    border-color: white;
+    background-color: #34495e;
+}
+
+/* Main content and layout styling */
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Card styling demonstrating the Box Model */
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /* Box Model in action: */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.special-card {
+    background-color: #ecf0f1;
+    border: 3px dashed #e74c3c;
+}
+
+/* Button styling */
+.styled-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+    background-color: #2980b9;
+}
+
+.special-button {
+    background-color: #e74c3c;
+}
+
+.special-button:hover {
+    background-color: #c0392b;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
